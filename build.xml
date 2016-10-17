@@ -68,7 +68,7 @@
     nbproject/build-impl.xml file. 
 
     -->
-    <target default="build.cml">
+    <target name="build">
         <war destfile="F:\NetBeans\PhaniJenkins\dist\PhaniJenkins.war" webxml="F:\NetBeans\PhaniJenkins\build\web\WEB-INF\web.xml">
             <fileset dir="F:\NetBeans\PhaniJenkins\build\web">
                  <include name="**/*.*"/>
