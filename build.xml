@@ -69,11 +69,11 @@
 
     -->
     <target name="build">
-        <war destfile="F:\NetBeans\PhaniJenkins\dist\PhaniJenkins.war" webxml="F:\NetBeans\PhaniJenkins\build\web\WEB-INF\web.xml">
-            <fileset dir="F:\NetBeans\PhaniJenkins\build\web">
+        <war destfile="C:\Program Files (x86)\Jenkins\jobs\PhaniJenkins\workspace\dist\PhaniJenkins.war" webxml="C:\Program Files (x86)\Jenkins\jobs\PhaniJenkins\workspace\build\web\WEB-INF\web.xml">
+            <fileset dir="C:\Program Files (x86)\Jenkins\jobs\PhaniJenkins\workspace\build\web">
                  <include name="**/*.*"/>
             </fileset>
-            <classes dir="F:\NetBeans\PhaniJenkins\build\web\WEB-INF\classes"/>
+            <classes dir="C:\Program Files (x86)\Jenkins\jobs\PhaniJenkins\workspace\build\web\WEB-INF\classes"/>
         </war>
     </target>
 </project>
