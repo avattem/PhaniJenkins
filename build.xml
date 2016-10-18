@@ -73,7 +73,6 @@
             <fileset dir="C:\Program Files (x86)\Jenkins\jobs\PhaniJenkins\workspace\build\web">
                  <include name="**/*.*"/>
             </fileset>
-            <classes dir="C:\Program Files (x86)\Jenkins\jobs\PhaniJenkins\workspace\build\web\WEB-INF\classes"/>
         </war>
     </target>
 </project>
