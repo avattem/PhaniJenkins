@@ -69,8 +69,8 @@
 
     -->
     <target name="build">
-        <war destfile="/home/ec2-user/workspace/Demo/dist/PhaniJenkins1.war" webxml="/home/ec2-user/workspace/Demo/build/web/WEB-INF/web.xml">
-            <fileset dir="/home/ec2-user/workspace/Demo/build/web">
+        <war destfile="/home/ec2-user/workspace/Aws Sample/dist/PhaniJenkins1.war" webxml="/home/ec2-user/workspace/Aws Sample/build/web/WEB-INF/web.xml">
+            <fileset dir="/home/ec2-user/workspace/Aws Sample/build/web">
                  <include name="**/*.*"/>
             </fileset>
         </war>
